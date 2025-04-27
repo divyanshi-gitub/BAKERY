@@ -1,0 +1,399 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;  
+    background: #ffffff;
+    text-align: center;
+
+}
+header {
+    background-color: #211108;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    
+    
+}
+.line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* line */
+    width: 100%;
+    margin-top: 160px;
+}
+.logo {
+    width: 140PX;
+    height: 50px;
+    background-image: url(gallery/Mask\ group.png);
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.navbar-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.hero{
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero P{
+    margin-bottom: 30px;
+}
+.btn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 120px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.navbar-icon i{
+  color: #fff;
+}
+
+
+.breadcrumb {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: start;
+  margin-left: 100px;
+  margin-top: 70px;
+  margin-bottom: 12px;
+}
+
+.product-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+
+}
+
+.product-image img {
+  width: 675px;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.product-info {
+  flex: 1;
+  max-width: 600px;
+  text-align: start;
+}
+
+.product-info h1 {
+  font-size: 2rem;
+  color: #572b00;
+}
+
+.description {
+  color: #ccc;
+  margin: 10px 0 20px;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #a94c00;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.rating span:first-child {
+  color: gold;
+  font-size: 1.2rem;
+}
+
+.rating-info {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.quantity {
+  width: 60px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.add-to-cart, .buy-now {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+.add-to-cart {
+  background-color: #3b1d0d;
+  color: white;
+  width: 260px;
+
+}
+a{
+  text-decoration: none;
+}
+.buy-now {
+  background-color: transparent;
+  border: 1px solid #220404;
+  color: #120101;
+  width: 260px;
+}
+
+.details h3 {
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.details p {
+  color: #888;
+  font-size: 0.95rem;
+  margin: 5px 0;
+}
+
+.details p strong {
+  color: #bbb;
+}
+
+
+.related-products {
+  margin-top: 60px;
+}
+
+.related-products h2 {
+  font-size: 1.8rem;
+  color: #572b00;
+  margin-bottom: 30px;
+  text-align: start;
+  margin-left: 94px;
+}
+
+.related-grid {
+  display: grid;
+  padding: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:10px;
+  margin-top: -100px;
+}
+
+.related-card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: start;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.related-card:hover {
+  transform: translatey(32px);
+}
+
+.related-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.badge {
+  background-color: #d3cd9f;
+  color: #444;
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+.product-title {
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.old-price {
+  color: #666;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.cart-btn {
+  background: transparent;
+  border: 1px solid #d3cd9f;
+  padding: 10px;
+  width: 100%;
+  border-radius: 30px;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.cart-btn:hover {
+  background-color: #d3cd9f;
+  color: #000;
+}
+
+
+
+  .footer {
+    background-color: #1e0f06;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .footer-logo-social {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #fff;
+  }
+  .footer-logo-social .logo{
+    margin-top: -8PX;
+  }
+  
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    color: #e0cd94;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  .footer-links h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 30px;
+    /* color: #fff; */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact {
+    flex: 1 1 250px;
+  }
+  
+  .footer-contact h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 28px;
+    /* color: #fff; */
+  }
+  
+  .footer-contact p {
+    margin: 8px 0;
+    font-size: 14px;
+    margin-top: 10px;
+    
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #3a2b22;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+  }
+
+  .footer-bottom p{
+    margin-bottom: -10PX;
+    color: #BDB37E;
+  }
+  
+
