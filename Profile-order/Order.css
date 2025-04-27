@@ -1,0 +1,395 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;  
+    background: #ffffff;
+    text-align: center;
+
+}
+header {
+    background-color: #211108;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    
+    
+}
+.line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* line */
+    width: 100%;
+    margin-top: 160px;
+}
+.logo {
+    width: 140PX;
+    height: 50px;
+    background-image: url(Mask\ group.png);
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.navbar-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.hero{
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero P{
+    margin-bottom: 30px;
+}
+.btn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 120px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.navbar-icon i{ 
+  color: #fff;
+}
+
+#active{
+  color: #BDB37E;
+  text-decoration: none;
+
+}
+
+.profile-cardcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c0b57b; /* soft khaki tone */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1300px;
+  color: white;
+  font-family: sans-serif;
+}
+.profile-info{
+  text-align: left;
+  /* gap: 90px; */
+}
+
+.profile-info h2 {
+  margin: 1;
+  font-size: 18px;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: white;
+  color: #b5a95f;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+.dashboard {
+  display: flex;
+  padding: 88px;
+  margin-top: -120px;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #c0b57b;
+  padding: 20px 10px;
+  color: white;
+  height: 96vh;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  display:block;
+
+}
+
+.sidebar li {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.sidebar li.active {
+  background-color: white;
+  color: #c0b57b;
+}
+
+.sidebar .icon {
+  margin-right: 10px;
+}
+
+.orders {
+  flex-grow: 1;
+  padding: 20px;
+
+  color: #000;
+}
+.order-text h2{
+text-align: start;
+margin-left: 30px;
+font-weight: 700;
+}
+
+
+.order-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+ border: 2px solid #b5a95f;
+margin-left: 30px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.order-info {
+  flex-grow: 1;
+}
+
+.order-meta {
+  font-size: 12px;
+  color: gray;
+}
+
+.details-link {
+  color: #c0b57b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.delivery-time {
+  text-align: right;
+  font-size: 12px;
+  color: gray;
+}
+
+.checkmark {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #c0b57b;
+  border-radius: 50%;
+  padding: 8px 8px;
+  color: rgb(255, 255, 255);
+}
+
+.order-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.help-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #c0b57b;
+  background-color: white;
+  color: #c0b57b;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.older-orders-note {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  margin-left: 30px;
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+ border: 2px solid #b5a95f;
+
+}
+
+  .footer {
+    background-color: #1e0f06;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .footer-logo-social {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #fff;
+  }
+  .footer-logo-social .logo{
+    margin-top: -8PX;
+  }
+  
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    color: #e0cd94;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  .footer-links h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 30px;
+    /* color: #fff; */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact {
+    flex: 1 1 250px;
+  }
+  
+  .footer-contact h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 28px;
+    /* color: #fff; */
+  }
+  
+  .footer-contact p {
+    margin: 8px 0;
+    font-size: 14px;
+    margin-top: 10px;
+    
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #3a2b22;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+  }
+
+  .footer-bottom p{
+    margin-bottom: -10PX;
+    color: #BDB37E;
+  }
+  
+

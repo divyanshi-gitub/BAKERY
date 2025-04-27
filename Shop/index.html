@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="gallery/" />
+    <link rel="stylesheet" href="Shop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html" title="Cart"> <div class="logo"></div> </a>
+
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="Aboutpage/index.html">About Us</a></li>
+          <a class="active" href="Shop/index.html">Shop</a>
+          <li><a href="our-oven/index.html">Our oven</a></li>
+          <li>
+            <a href="create-a-your-buffet/index.html">Create your own buffet</a>
+          </li>
+          <li><a href="contact-us-page/index.html">Contact</a></li>
+        </ul>
+
+        <div class="navbar-icon">
+          <!-- Cart Icon -->
+          <a href="Cart/index.html" title="Cart">
+            <i class="fa fa-shopping-cart"></i>
+          </a>
+
+          <!-- Search Icon -->
+          <a href="Search/index.html" title="Search">
+            <i class="fa fa-search"></i>
+          </a>
+
+          <!-- Profile Icon -->
+          <a href="Profile-order/index.html" title="Profile">
+            <i class="fa fa-user"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="line"></div>
+
+      <div class="hero">
+        <h1>Our Freshly Baked Creations</h1>
+        <p>
+          Explore our wide variety of breads, cakes, pastries, and more, all
+          crafted with love and the finest ingredients.
+        </p>
+        <!-- <a href="#menu" class="btn">Shop Now</a> -->
+      </div>
+    </header>
+
+    <main class="shop-section">
+      <aside class="sidebar">
+        <div class="filter-panel">
+          <h3>Categories</h3>
+          <div class="button-group">
+            <button class="active">Breads</button>
+            <button>Cakes</button>
+            <button>Cookies</button>
+            <button>Pastries</button>
+            <button>Tarts</button>
+            <button>Muffins</button>
+            <button>Specialty Items</button>
+          </div>
+
+          <hr />
+
+          <h3>Price</h3>
+          <div class="price-range">
+            <span>Min: <span class="price">$5</span></span>
+            <input type="range" min="0" max="20" value="5" />
+            <input type="range" min="0" max="20" value="15" />
+            <span>Max: <span class="price inactive">$15</span></span>
+          </div>
+
+          <hr />
+
+          <h3>Dietary Preferences</h3>
+          <div class="button-group">
+            <button class="active">Vegan</button>
+            <button class="inactive">Gluten-Free</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="products">
+        <!-- Example product card -->
+        <div class="breadcrumb">Home &gt; Shop</div>
+
+        <div class="product-gd">
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <a href="detail-page/index.html"
+                ><img src="gallery/product.png" alt="Bakery Items"
+              /></a>
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <a href="Cart/index.html"
+              ><button class="add-to-cart">ADD TO CART</button>
+            </a>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>Mini Box Limited Edition BLACK FRIDAY</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <a href="detail-page/index.html"
+                ><img src="gallery/product.png" alt="Bakery Items"
+              /></a>
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+
+          <div class="product-card">
+            <div class="image-container">
+              <span class="badge">ON SALE</span>
+              <img src="gallery/product.png" alt="Bakery Items" />
+            </div>
+            <p class="category-pro">BOX</p>
+            <h3>BLACK FRIDAY Limited Edition Box</h3>
+            <p class="price"><s>€130.00</s> <strong>€99.99</strong></p>
+            <button class="add-to-cart">ADD TO CART</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="pagination">
+      <button class="page active">1</button>
+      <button class="page">2</button>
+      <button class="page">3</button>
+      <button class="page">…</button>
+      <button class="page">10</button>
+      <button class="page">Next</button>
+    </div>
+
+    <!-- <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Lambiazo Bakery. All Rights Reserved.</p>
+        </div>
+    </footer> -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo-social">
+          <h2 class="logo"></h2>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Create your own Buffet</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Category</h3>
+          <ul>
+            <li><a href="#">Bread</a></li>
+            <li><a href="#">Cakes</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Pastries</a></li>
+            <li><a href="#">Tarts</a></li>
+            <li><a href="#">Muffins</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p>+1 (121) 456 7899</p>
+          <p>info@example.com</p>
+          <p>Via Giliberto Petti 69, Castel San Giorgio 84083</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© Copyright 2024. All Right Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
